@@ -1,0 +1,5 @@
+<view class="page">
+ <image style="width: {{imageW.width}}; height: {{imageW.height}};" class="browe_image" src="{{imageUrl}}"></image>
+ <button type="primary" open-type="share" class="browe_share">分享</button>
+ <button type="primary" class="browe_save" bindtap="saveImage">保存到相册</button>
+</view>

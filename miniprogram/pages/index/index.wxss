@@ -1,0 +1,21 @@
+/**index.wxss**/
+.weui-tabs-bar__item {
+  width: 20%;
+  text-align: center;
+}
+
+.weui-tabs-bar__wrp { 
+  padding-bottom: 8px;
+}
+
+.page {
+  height: 100%;
+}
+.weui-tabs {
+  height: 100%;
+}
+
+.imageList {
+  display: block;
+  overflow: scroll;
+}

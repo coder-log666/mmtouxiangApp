@@ -1,0 +1,9 @@
+<view class="page">
+  <mp-tabs tabs="{{tabs}}" activeTab="{{activeTab}}" tabClass="tabs" bindtabclick="onTabClick" bindchange="onChange" activeClass="tab-bar-title__selected" swiperStyle="height: {{height}}">
+    <block wx:for="{{tabs}}" wx:key="title">
+      <view class="tab-content" data-set="{{item}}" slot="tab-content-{{index}}" bind:tap="handleClick">     
+        <single-image bindsavectx="savectx" bindgetNextPage="getNextPage" style="height: {{height}};"  class="imageList" data-set="{{item}}" index="{{item.index}}"  height="{{height}}" headers="{{item.data}}" itemSize = "{{item.itemSize}}"></single-image>
+      </view>
+    </block>
+  </mp-tabs>
+</view>

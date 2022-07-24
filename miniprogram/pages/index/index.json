@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "mp-tabs": "@miniprogram-component-plus/tabs",
+    "single-image": "../../moudle/single/single"
+  }
+}

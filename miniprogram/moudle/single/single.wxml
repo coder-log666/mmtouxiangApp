@@ -1,0 +1,8 @@
+<recycle-view sc batch="{{batchSetRecycleData}}" debug="true" id="recycleId_{{index}}" class="recycle" style="height: {{height}};" bindscrolltolower="scrolltolower" lower-threshold="300">
+  <recycle-item class="recycleItem" wx:for="{{headers}}" wx:key="id" wx:for-index="idx" wx:for-item="item" itemSize="{{itemSize}}">
+    <view class="imageWrapper" wx:for="{{item}}" wx:key="id" wx:for-index="idy" wx:for-item="image">
+    <!-- "外{{idx}}里{{idy}}" -->
+      <image bindtap="browseImage" style="width:{{itemSize.width+'px'}};height:{{itemSize.height+'px'}}" class="cornor" id="{{image.url}}" src="{{image.url}}"></image>
+    </view>
+  </recycle-item>
+</recycle-view>

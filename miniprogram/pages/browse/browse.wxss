@@ -1,0 +1,14 @@
+.page {
+  text-align: center;
+}
+.browe_image {
+  margin-top: 60px;
+  border-radius: 14px;
+}
+.browe_share {
+  margin-top: 60px;
+}
+
+.browe_save {
+  margin-top: 20px;
+}
